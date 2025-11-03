@@ -1,0 +1,41 @@
+.AddToCartButton {
+  background: #ef4372;
+  color: white;
+  border: none;
+  border-radius: 15px; 
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0 15px;
+}
+
+.AddToCartButton:hover {
+  background: #e02a60;
+}
+
+.AddToCartButton > button {
+   all: unset; 
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  flex: 1;
+}
+.AddToCartButton > button.icon-btn:hover {
+  transform: scale(1.1);
+}
+
+.AddToCartButton p {
+  all: unset;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  flex: 1;
+}

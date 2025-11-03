@@ -1,0 +1,70 @@
+.popularSearches {
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.popularSearches h5 {
+    justify-content: start;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+
+}
+
+.searchGroup {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  gap: 8px; 
+}
+
+.searchGroup strong {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.searchGroup button {
+    all : unset;
+    font-weight: lighter;
+    cursor: pointer;
+  
+}
+.searchGroup button:hover {
+  background-color: #e1bee7;
+  border-color: #d1aaff;
+}
+
+
+.categories2{
+     padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.categories2 h5 {
+    justify-content: start;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+
+}
+
+.categoriesGrp{
+   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px; 
+}
+
+.categoriesGrp button {
+    all : unset;
+    font-weight: 500;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+  
+}
+

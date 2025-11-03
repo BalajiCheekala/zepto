@@ -1,0 +1,76 @@
+*{
+    background: linear-gradient(90deg, #f8f0ff, #ffffff);
+}
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #f8f0ff, #ffffff);
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.Header {
+  position: fixed;            
+  top: 0;                     
+  left: 0;
+  width: 100vw;                
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #f8f0ff, #ffffff);
+  padding: 10px 40px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  
+}
+
+.ProductContainer {
+  
+  margin-top: 150px;
+ 
+}
+
+
+.Product {
+  display: grid;
+  grid-template-columns: 45% 55%;; 
+  gap: 20px;                      
+  align-items: start;             
+  justify-content: center;       
+  padding: 10px;
+}
+
+.ProductImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+
+
+
+.ProductDetails {
+  overflow-y: auto;        
+  height: 100vh;           
+  padding-right: 10px;    
+  scroll-behavior: smooth; 
+  scrollbar-width: none;
+  margin: 10px;
+}
+.ProductDetails::-webkit-scrollbar {
+  display: none;
+}
+.ProductDetails::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+}
+.ProductDetails::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+
+

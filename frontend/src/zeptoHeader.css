@@ -1,0 +1,36 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  padding: 10px 40px;
+  width: 100%;
+  background: linear-gradient(90deg, #f8f0ff, #ffffff);
+  box-sizing: border-box;
+  height: 120px;
+}
+
+.Logo {
+  flex: 1;                 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.SearchBar {
+  flex: 1.5;                       
+  display: flex;
+  justify-content: center;        
+  align-items: center;
+  margin: 20px;
+}
+
+.LoginCart {
+  flex: 1;                         
+  display: flex;
+  justify-content: flex-end;       
+  align-items: center;
+  margin: 20px;
+  margin-right: 0px;
+}

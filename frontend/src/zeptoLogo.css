@@ -1,0 +1,79 @@
+
+.zeptoHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+}
+
+.zeptoLogoText {
+  font-size: 32px;
+  font-weight: 700;
+  color: #9b2fff; 
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.superSaver .toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: row;
+  border-radius: 25px;
+  width: 130px;
+  height: 45px;
+  padding: 5px 10px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggleCircle {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+.toggleText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.1;
+  background: white;
+}
+
+.toggleText .super {
+  font-size: 12px;
+  font-weight: 800;
+  color: #3b3b3b;
+  background: white;
+}
+
+.toggleText .saver {
+  font-size: 12px;
+  font-weight: 900;
+  background: white;
+  color: #3b3b3b;
+}
+
+
+
+
+.selectLocation {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #2e2e2e;
+  cursor: pointer;
+  gap: 6px;
+  font-size: 15px;
+  margin: 20px;
+}
+
+
